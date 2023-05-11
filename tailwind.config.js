@@ -24,6 +24,9 @@ module.exports = {
             'background-position': 'right center',
           },
         },
+        modal:{
+          
+        }
       },
       colors: {
         dark: "#404040",

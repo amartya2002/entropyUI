@@ -1,5 +1,5 @@
 export default {
-    logo: <span>Docs Template</span>,
+    logo: <span>Entropy UI</span>,
     project: {
       link: 'https://github.com/shuding/nextra',
     },
