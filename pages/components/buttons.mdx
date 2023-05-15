@@ -1,24 +1,35 @@
-
-
+import { Tab, Tabs } from 'nextra-theme-docs'
 import { useState } from "react";
+import { Callout } from 'nextra-theme-docs'
 
-export function Counter({ children }) {
+export function Button({ children }) {
+  
   const [count, setCount] = useState(0);
   return (
     <div >
   
-    <div className="flex space-x-5">
-    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-  Button
+    <div className=" mx-1 flex space-x-5  ">
+<button
+  aria-label="Primary button"
+  className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none  active:scale-105 duration-200"
+>
+  Primary
 </button>
 
-<button className="bg-black hover:bg-slate-900 text-white font-bold py-2 px-4 rounded">
-  Button
+<button
+  aria-label="Get started button"
+  className="bg-black hover:bg-slate-800 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Get Started
 </button>
 
-<button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
-  Button
+<button
+  aria-label="Warning button"
+  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Warning
 </button>
+
 
 </div>
    
@@ -28,7 +39,69 @@ export function Counter({ children }) {
 }
 
 # Buttons
+
 <br />
 
+<Button />
+<div className="mx-1">
+<Tabs items={['HTML', 'React', 'Vue']}>
+  <Tab>
+    ```js showLineNumbers copy 
+<button
+  aria-label="Primary button"
+  class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none  active:scale-105 duration-200"
+>
+  Primary
+</button>
 
-<Counter>Increment: </Counter>
+<button
+  aria-label="Get started button"
+  class="bg-black hover:bg-slate-800 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Get Started
+</button>
+
+<button
+  aria-label="Warning button"
+  class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Warning
+</button>
+```
+  </Tab>
+  <Tab>
+    ```js showLineNumbers copy 
+<button
+  aria-label="Primary button"
+  className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none  active:scale-105 duration-200"
+>
+  Primary
+</button>
+
+<button
+  aria-label="Get started button"
+  className="bg-black hover:bg-slate-800 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Get Started
+</button>
+
+<button
+  aria-label="Warning button"
+  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none active:scale-105 duration-200"
+>
+  Warning
+</button>
+```
+    
+  </Tab>
+  <Tab>
+   Coming soon.....
+  </Tab>
+</Tabs>
+</div>
+<div className=""> 
+<Callout emoji="👾">
+  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
+  Nishikado.
+</Callout></div>
+
