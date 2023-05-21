@@ -33,8 +33,8 @@ function Hero() {
         </Link>
       </div>
 
-      <div className="sm:flex sm:space-x-4 space-y-4 sm:space-y-0 mb-10">
-  <div className="bg-black text-white px-7 py-8 sm:py-8 rounded-3xl max-w-2xl shadow-xl flex-1">
+<div className="sm:flex sm:space-x-4 space-y-4 sm:space-y-0 mb-10">
+  <div className="bg-gradient-to-l from-[#3A3A3A] to-[#040404] text-white px-7 py-8 sm:py-12 rounded-3xl max-w-2xl shadow-md flex-1 animate-text ">
     <h2 className="text-2xl font-semibold mb-2">Responsive</h2>
     <p className="text-slate-200">
       Responsive designed components and templates that look great on mobile,
@@ -42,7 +42,7 @@ function Hero() {
     </p>
   </div>
 
-  <div className="bg-black text-white px-7 py-8 sm:py-10 rounded-3xl max-w-2xl shadow-xl flex-1">
+  <div className="bg-gradient-to-l from-[#3A3A3A] to-[#040404] text-white px-7 py-8 sm:py-12 rounded-3xl max-w-2xl shadow-md flex-1 animate-text border border-lightSilver">
     <h2 className="text-2xl font-semibold mb-2">Accessible</h2>
     <p className="text-slate-200">
       Building websites that can be used by all individuals is one of our
@@ -50,10 +50,11 @@ function Hero() {
     </p>
   </div>
 
-  <div className="bg-black text-white px-7 py-6 sm:py-0 sm:pb-0 rounded-3xl shadow-xl flex justify-center items-center text-center">
+  <div className="bg-black text-white px-7 py-6 sm:py-0 sm:pb-0 rounded-3xl shadow-md flex justify-center items-center text-center border border-lightSilver">
     <p className="text-xl">Dark Mode<br />Included</p>
   </div>
 </div>
+
 
 
     </section>
