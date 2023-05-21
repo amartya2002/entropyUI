@@ -34,7 +34,7 @@ function Hero() {
       </div>
 
       <div className="sm:flex sm:space-x-4 space-y-4 sm:space-y-0 mb-10">
-  <div className="bg-black text-white px-7 py-8 sm:py-10 rounded-3xl max-w-2xl shadow-xl flex-1">
+  <div className="bg-black text-white px-7 py-8 sm:py-8 rounded-3xl max-w-2xl shadow-xl flex-1">
     <h2 className="text-2xl font-semibold mb-2">Responsive</h2>
     <p className="text-slate-200">
       Responsive designed components and templates that look great on mobile,
