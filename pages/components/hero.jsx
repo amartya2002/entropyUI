@@ -41,7 +41,7 @@ function Hero() {
 
  <div className="sm:flex sm:space-x-4 space-y-7 sm:space-y-0 mb-10">
         {/* Card1*/}
-        <div className="bg-gradient-to-l from-[#dc8585] to-[#f25d5d] text-white px-7 py-8 sm:py-6  rounded-3xl sm:max-w-lg shadow-xl flex-1  ">
+        <div className="bg-gradient-to-l from-indigo-400 animate-text to-red-400 text-white px-7 py-8 sm:py-6  rounded-3xl sm:max-w-lg shadow-xl flex-1  ">
           <div className=" mb-12  ">
             <h2 className="text-2xl font-semibold mb-2">Responsive</h2>
             <p className="text-slate-200">
@@ -52,7 +52,7 @@ function Hero() {
           </div>
         </div>
         {/* Card2*/}
-        <div className="bg-gradient-to-l from-[#dc8585] to-[#f25d5d] text-white px-7 py-8 sm:py-6 rounded-3xl sm:max-w-lg shadow-xl flex-1 ">
+        <div className="bg-gradient-to-l from-indigo-400 animate-text to-red-400 text-white px-7 py-8 sm:py-6 rounded-3xl sm:max-w-lg shadow-xl flex-1 ">
           <div className=" mb-10">
             <h2 className="text-2xl font-semibold mb-2">Accessible</h2>
             <p className="text-slate-200">
