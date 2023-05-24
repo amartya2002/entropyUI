@@ -1,4 +1,4 @@
-# Create Beautiful Documentation Sites with Nextra and Tailwind CSS
+# UI component library for React and Vue
 ## Local Development
 
 First, run `yarn install` to install the dependencies.
